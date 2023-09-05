@@ -1,0 +1,42 @@
+
+@font-face {
+    font-family: 'Yekan';
+    src: url('./fonts/Weblogma_Yekan.woff') format('woff');
+}
+
+body{
+    display: flex;
+    background-color: #1f1616;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    font-family: 'Yekan';
+    color: white;
+    text-align: justify;    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1,p{
+    width: 90%;
+}
+
+div{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+img{
+    box-sizing: border-box;
+    max-width: 80%;
+}
+
